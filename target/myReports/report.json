@@ -1,0 +1,115 @@
+[ {
+  "line" : 1,
+  "elements" : [ {
+    "start_timestamp" : "2023-02-27T23:08:41.210Z",
+    "line" : 2,
+    "name" : "Verify Login For valid inputs and messase as Login Successful",
+    "description" : "",
+    "id" : "login-action;verify-login-for-valid-inputs-and-messase-as-login-successful",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 11208641100,
+        "status" : "passed"
+      },
+      "line" : 3,
+      "name" : "user navigates to login page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_navigates_to_login_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 3339191000,
+        "status" : "passed"
+      },
+      "line" : 4,
+      "name" : "user enters correct user name and password",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_correct_user_name_and_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 5,
+      "name" : "user is directed to the home page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_is_directed_to_the_home_page()"
+      },
+      "keyword" : "Then "
+    }, {
+      "result" : {
+        "duration" : 1000000,
+        "status" : "passed"
+      },
+      "line" : 6,
+      "name" : "user is on Home page diplay a message as Login Successful",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_is_on_home_page_diplay_a_message_as_login_successful()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "duration" : 814046600,
+        "status" : "passed"
+      },
+      "line" : 7,
+      "name" : "Logout",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.logout()"
+      },
+      "keyword" : "Then "
+    } ]
+  }, {
+    "start_timestamp" : "2023-02-27T23:08:56.745Z",
+    "line" : 8,
+    "name" : "Verify Login For invalid inputs and messase as Login Successful",
+    "description" : "",
+    "id" : "login-action;verify-login-for-invalid-inputs-and-messase-as-login-successful",
+    "type" : "scenario",
+    "keyword" : "Scenario",
+    "steps" : [ {
+      "result" : {
+        "duration" : 19081091400,
+        "status" : "passed"
+      },
+      "line" : 9,
+      "name" : "user navigates to login page",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_navigates_to_login_page()"
+      },
+      "keyword" : "Given "
+    }, {
+      "result" : {
+        "duration" : 1000100,
+        "status" : "passed"
+      },
+      "line" : 10,
+      "name" : "user enters incorrect user name or incorrect password",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_enters_incorrect_user_name_or_incorrect_password()"
+      },
+      "keyword" : "When "
+    }, {
+      "result" : {
+        "status" : "passed"
+      },
+      "line" : 11,
+      "name" : "user error message is displayed",
+      "match" : {
+        "location" : "stepDefinations.TC001_LoginStepDefination.user_error_message_is_displayed()"
+      },
+      "keyword" : "Then "
+    } ]
+  } ],
+  "name" : "Login Action",
+  "description" : "",
+  "id" : "login-action",
+  "keyword" : "Feature",
+  "uri" : "file:src/main/java/features/TC001_Login.feature",
+  "tags" : [ ]
+} ]
